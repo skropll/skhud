@@ -1,0 +1,121 @@
+"resource/ui/huditemeffectmeter.res"
+{
+	"armor"
+	{
+		"ControlName"	"ctfImagePanel"
+		"fieldName"		"armor"
+		"xpos"			"37"
+		"ypos"			"14"
+		"zpos"			"5"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"alpha"			"255"
+		"image"			"replay/thumbnails/armor"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+	}	
+	"armorblack"
+	{
+		"ControlName"	"ctfImagePanel"
+		"fieldName"		"armorblack"
+		"xpos"			"38"
+		"ypos"			"15"
+		"zpos"			"5"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"alpha"			"220"
+		"image"			"replay/thumbnails/armorblack"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+	}
+	"Label100"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Label100"
+		"font"			"Catamaran15"
+		"fgcolor"		"255 255 255 255"
+		"xpos"			"36"
+		"ypos"			"6"
+		"zpos"			"7"
+		"wide"			"50"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"		
+		"labelText"		"100"
+	}	
+	HudItemEffectMeter
+	{
+		"fieldName"		"HudItemEffectMeter"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"80"	[$WIN32]
+		"ypos"			"r45"	[$WIN32]
+		"wide"			"250"
+		"tall"			"50"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ItemEffectMeterBG"
+		"xpos"					"43"
+		"ypos"					"31"
+		"zpos"					"1"
+		"wide"					"48"
+		"tall"			"7"
+		"visible"		"1"
+		"border"				"sborder2"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 255"			
+	}
+	
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"12"
+		"wide"					"50"
+		"tall"					"15"
+		"autoResize"			"1"
+		"visible"				"1"
+		"fgcolor_override"		"255 255 255 255"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_Ball"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"roboto8bold"
+	}		
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"					"41"
+		"ypos"					"29"
+		"zpos"					"2"
+		"wide"					"48"
+		"tall"					"7"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"alpha"				"255"
+		"enabled"				"1"
+		"border"				"noborder"
+		"FGcolor_override"		"255 255 255 255"
+		"BGcolor_override"		"22 22 22 0"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+	}		
+
+}

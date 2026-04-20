@@ -1,0 +1,54 @@
+"UnlitGeneric"
+{
+    "$basetexture" "vgui/replay/thumbnails/dynamic"
+    "$translucent" 1
+    "$vertexcolor" 1
+    "$no_fullbright" 1
+    "$ignorez" 1
+    "$dummy" "0"
+    "$speed" "0"
+    "$slowspeed" "0"
+    "$fastspeed" "0"
+    "$fastoffset" "67"
+    "$threshold" "320"
+    "$shiftedfast" "0"
+    Proxies
+    {
+        PlayerSpeed
+        {
+            scale "1"
+            resultVar "$speed"
+        }
+        PlayerSpeed
+        {
+            scale "0.140625"
+            resultVar "$slowspeed"
+        }
+        PlayerSpeed
+        {
+            scale "0.35"
+            resultVar "$fastspeed"
+        }
+        Subtract
+        {
+            srcVar1 "$fastspeed"
+            srcVar2 "$fastoffset"
+            resultVar "$shiftedfast"
+        }
+        LessOrEqual
+        {
+            srcVar1 "$speed"
+            srcVar2 "$threshold"
+            LessEqualVar "$slowspeed"
+            greaterVar "$shiftedfast"
+            resultVar "$frame"
+        }
+        Clamp
+        {
+            min "0"
+            max "230"
+            srcVar1 "$frame"
+            resultVar "$frame"
+        }
+    }
+}
