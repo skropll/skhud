@@ -83,6 +83,14 @@ WeaponData
 				"width"		"256"
 				"height"	"256"
 		}
+		"zoom"
+		{
+				"file"		"vgui/replay/thumbnails/scope"
+				"x"		"0"
+				"y"		"0"
+				"width"		"4096"
+				"height"	"4096"
+		}
 		"autoaim"
 		{
 				"file"		"sprites/crosshairs"
