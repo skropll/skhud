@@ -78,16 +78,16 @@
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images"
 			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images"
-			"x"				"16"
+			"x"				"6"
 			"y"				"96"
-			"width"			"32"
+			"width"			"45"
 			"height"		"32"
 		}
 		"smg"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images"
 			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images"
-			"x"				"0"
+			"x"				"-10"
 			"y"				"128"
 			"width"			"96"
 			"height"		"32"
@@ -249,7 +249,7 @@
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images"
 			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images"
-			"x"				"96"
+			"x"				"86"
 			"y"				"32"
 			"width"			"96"
 			"height"		"32"
@@ -312,19 +312,19 @@
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images"
 			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images"
-			"x"				"120"
+			"x"				"113"
 			"y"				"352"
-			"width"			"42"
+			"width"			"55"
 			"height"		"32"
 		}
 		"backstab"
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v2"
 			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v2"
-			"x"				"381"
-			"y"				"64"
-			"width"			"94"
-			"height"		"30"
+			"x"				"115"
+			"y"				"385"
+			"width"			"55"
+			"height"		"32"
 		}
 		"ubersaw"
 		{
@@ -537,7 +537,7 @@
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images"
 			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images"
-			"x"				"192"
+			"x"				"189"
 			"y"				"289"
 			"width"			"64"
 			"height"		"32"
@@ -546,9 +546,9 @@
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images"
 			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images"
-			"x"				"192"
+			"x"				"193"
 			"y"				"322"
-			"width"			"64"
+			"width"			"55"
 			"height"		"32"
 		}
 		"taunt_sniper"
@@ -915,7 +915,7 @@
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v2"
 			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v2"
-			"x"				"0"
+			"x"				"-2"
 			"y"				"992"
 			"width"			"96"
 			"height"		"32"
