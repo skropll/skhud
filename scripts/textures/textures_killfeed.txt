@@ -321,10 +321,10 @@
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v2"
 			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v2"
-			"x"				"115"
-			"y"				"385"
-			"width"			"55"
-			"height"		"32"
+			"x"				"381"
+			"y"				"64"
+			"width"			"94"
+			"height"		"30"
 		}
 		"ubersaw"
 		{
@@ -546,9 +546,9 @@
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images"
 			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images"
-			"x"				"193"
-			"y"				"322"
-			"width"			"55"
+			"x"				"260"
+			"y"				"67"
+			"width"			"100"
 			"height"		"32"
 		}
 		"taunt_sniper"

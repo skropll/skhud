@@ -487,7 +487,7 @@
 		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"TimesRoman11"
+		"TextFont"		"TimesRoman12"
 		
 		"TeamBlue"		"255 255 255 255"
 		"TeamRed"		"255 255 255 255"
