@@ -9,7 +9,7 @@
     "$speed" "0"
     "$slowspeed" "0"
     "$fastspeed" "0"
-    "$fastoffset" "92"
+    "$fastoffset" "9"
     "$threshold" "320"
     "$shiftedfast" "0"
     Proxies
@@ -21,12 +21,12 @@
         }
         PlayerSpeed
         {
-            scale "0.0625"
+            scale "0.015625"
             resultVar "$slowspeed"
         }
         PlayerSpeed
         {
-            scale "0.35"
+            scale "0.04375"
             resultVar "$fastspeed"
         }
         Subtract
@@ -46,7 +46,7 @@
         Clamp
         {
             min "0"
-            max "230"
+            max "70"
             srcVar1 "$frame"
             resultVar "$frame"
         }
