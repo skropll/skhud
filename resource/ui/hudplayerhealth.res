@@ -91,7 +91,7 @@
 		"visible"				"1"	
 		"enabled"				"1"
 		"variable"				"Health"
-		"FGcolor_override"		"253 69 37 255" 
+		"FGcolor_override"		"120 0 0 255" 
 		"BGcolor_override"		"0 0 0 0"
 		"alpha"					"0"  
 	}

@@ -9,7 +9,7 @@
     "$speed" "0"
     "$slowspeed" "0"
     "$fastspeed" "0"
-    "$fastoffset" "97"
+    "$fastoffset" "92"
     "$threshold" "320"
     "$shiftedfast" "0"
     Proxies
@@ -21,7 +21,7 @@
         }
         PlayerSpeed
         {
-            scale "0.046875"
+            scale "0.0625"
             resultVar "$slowspeed"
         }
         PlayerSpeed
