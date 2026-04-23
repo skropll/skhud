@@ -83,7 +83,7 @@ WeaponData
 				"width"		"256"
 				"height"	"256"
 		}
-		"zoom"
+		// "zoom"
 		{
 				"file"		"vgui/replay/thumbnails/scope"
 				"x"		"0"

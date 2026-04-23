@@ -544,11 +544,11 @@
 		}
 		"ambassador_headshot"
 		{
-			"dfile"			"vgui/logos/killfeed_icons_white/d_images"
-			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images"
-			"x"				"260"
-			"y"				"67"
-			"width"			"100"
+			"dfile"			"vgui/replay/thumbnails/tfheadshot"
+			"dnegfile"		"vgui/replay/thumbnails/tfheadshot"
+			"x"				"-1"
+			"y"				"0"
+			"width"			"128"
 			"height"		"32"
 		}
 		"taunt_sniper"
@@ -1212,10 +1212,10 @@
 		{
 			"dfile"			"vgui/logos/killfeed_icons_white/d_images_v2"
 			"dnegfile"		"vgui/logos/killfeed_icons_black/dneg_images_v2"
-			"x"				"384"
+			"x"				"381"
 			"y"				"64"
-			"width"			"96"
-			"height"		"32"
+			"width"			"94"
+			"height"		"30"
 		}
 		"warfan"
 		{
