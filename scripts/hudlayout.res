@@ -475,7 +475,7 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r631"	[$WIN32]
+		"xpos"	 "r623"	[$WIN32]
 		"ypos"	 "20"	[$WIN32]
 		"wide"	 "631"
 		"tall"	 "468"
@@ -484,10 +484,10 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "13"
 		"LineSpacing"	  "0"
-		"CornerRadius"	  "2"
+		"CornerRadius"	  "4"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"TimesRoman12"
+		"TextFont"		"Catamaran13"
 		
 		"TeamBlue"		"255 255 255 255"
 		"TeamRed"		"255 255 255 255"
@@ -496,7 +496,7 @@
 		"LocalPlayerColor"	"255 255 255 255"
 
 		"BaseBackgroundColor"	"0 0 0 0"		[$WIN32]
-		"LocalBackgroundColor"	"0 0 0 0"	[$WIN32]
+		"LocalBackgroundColor"	"25 25 25 235"	[$WIN32]
 		"alpha" "255"
 	}
 

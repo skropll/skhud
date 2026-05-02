@@ -844,7 +844,7 @@
 		}
 		"Catamaran13"
 		{
-			"1" { "name" "Catamaran Semibold" "tall" "13" "antialias" "1" }
+			"1" { "name" "Catamaran Semibold" "tall" "13" "antialias" "1" "dropshadow" "1"}
 		}
 		"Catamaran14"
 		{
