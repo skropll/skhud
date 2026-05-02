@@ -489,11 +489,11 @@
 		
 		"TextFont"		"Catamaran13"
 		
-		"TeamBlue"		"255 255 255 255"
-		"TeamRed"		"255 255 255 255"
+		"TeamBlue"		"255 255 255 195"
+		"TeamRed"		"255 255 255 195"
 		"IconColor"		"255 255 255 255"
-		"LocalPlayerIconColor"		"255 255 255 255"
-		"LocalPlayerColor"	"255 255 255 255"
+		"LocalPlayerIconColor"		"255 255 255 195"
+		"LocalPlayerColor"	"255 255 255 195"
 
 		"BaseBackgroundColor"	"0 0 0 0"		[$WIN32]
 		"LocalBackgroundColor"	"25 25 25 235"	[$WIN32]
